@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+button {
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+.signup-content {
+    flex: 1;
+    /* width: 100%; */
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('images/empire.jfif') no-repeat center center/cover;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 120px 70px 120px;
+
+}
+.signup-content .content-head .asteriq {
+    color: #f13953;
+}
+.signup-content a {
+    color: white;
+    font-size: 18px;
+    /* margin-bottom: 100px; */
+}
+.signup-content a:hover {
+    color: aqua;
+    transition: all 500ms linear;
+}
+.signup-content h1 {
+    margin-top: 50px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 40px;
+}
+.content-footer ul {
+    display: flex;
+}
+.content-footer ul li a {
+    margin-right: 20px;
+    color: #f13953;
+    font-size: 16px;
+}
+.content-footer ul li a:hover {
+    color: aqua;
+    transition: all 500ms linear;
+}
+.signup-form {
+    padding: 150px 80px 200px 120px; 
+    flex: 1;
+    width: 100%;
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.signup-form .form-main {
+    color: gray;
+}
+.signup-form .form-list {
+    width: 100%;
+    margin: 15px 0;
+}
+.signup-form .form-list label {
+    font-size: 12px;
+    opacity: 0.5;
+}
+.signup-form .form-list input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid gray;
+    color: black;
+    outline: 0;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+.signup-form .form-action {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.signup-form .form-action #btn {
+    color: white;
+    background-color: #f13953;
+    border: 1px solid #f13953;
+    padding: 10px 40px;
+    border-radius: 40px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.signup-form .form-action #btn:hover {
+    color: black;
+    background-color: aqua;
+    border: 1px solid aqua;
+    transition: all 500ms linear;
+}
+.form-action a {
+    border: 0;
+    padding: 0;
+    text-decoration: underline;
+    color: gray;    
+}
+.signup-form .form-action a:hover {
+    color: #f13953;
+    transition: all 500ms linear;
+}

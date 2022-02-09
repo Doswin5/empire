@@ -90,6 +90,10 @@ body {
     margin: 5px 0;
     padding: 5px 0;
 }
+.signup-form .form-list input[type='password'] {
+    color: #f13953;
+}
+    
 .signup-form .form-action {
     margin-top: 40px;
     display: flex;

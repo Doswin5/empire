@@ -115,7 +115,8 @@ body {
     border: 0;
     padding: 0;
     text-decoration: underline;
-    color: gray;    
+    color: gray;  
+    font-size: 12px;
 }
 .signup-form .form-action a:hover {
     color: #f13953;
